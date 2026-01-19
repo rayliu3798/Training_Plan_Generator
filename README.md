@@ -37,8 +37,6 @@ This project processes raw cycling power data from the [GoldenCheetah OpenData](
 
 This part of the project imports cycling activity data from JSON files into PostgreSQL and calculates FTP (Functional Threshold Power) with progressive logic.
 
-## Overview
-
 The pipeline consists of:
 1. **SQL scripts** - Create database tables and clean data
 2. **Python script** - Calculate and update FTP values with progressive logic
